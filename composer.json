@@ -10,10 +10,15 @@
   ],
   "minimum-stability": "stable",
   "require": {},
+  "autoload": {
+    "psr-4": {
+      "MantasDone\\LaravelLogout\\": "src/"
+    }
+  },
   "extra": {
     "laravel": {
       "providers": [
-        "MantasDone\\LaravelLogout\\ServiceProvider"
+        "MantasDone\\LaravelLogout\\Providers\\ServiceProvider"
       ]
     }
   }
