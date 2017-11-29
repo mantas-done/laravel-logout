@@ -1,0 +1,20 @@
+{
+  "name": "mantas-done/laravel-logout",
+  "description": "Logs out user for all sessions",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Mantas",
+      "email": "mantas783@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MantasDone\\LaravelLogout\\ServiceProvider"
+      ]
+    }
+  }
+}
