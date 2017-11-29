@@ -1,4 +1,4 @@
-<?php namespace MantasDone\LaravelLogoutUser;
+<?php namespace MantasDone\LaravelLogout;
 
 use App\User;
 
