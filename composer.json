@@ -13,7 +13,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "MantasDone\\LaravelLogout\\Providers\\ServiceProvider"
+        "MantasDone\\LaravelLogout\\src\\Providers\\ServiceProvider"
       ]
     }
   }
